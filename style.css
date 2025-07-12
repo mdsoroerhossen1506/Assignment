@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font Section */
+
+/* inner font */
+.open-sans-font1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Releway font */
+.open-sans-header-title {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-center{
+    text-align: center;
+}
+.navigation-title{
+    margin: 0px 150px;
+    padding: 50px 0px;
+    
+}
+.navigation-title ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 900;
+    align-items: center;
+}
+.butt-primary{
+    font-size: 16px;
+    padding: 12px 36px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+header{
+    background-image: url(Assets/Hero-bg.png);
+
+}
+.banner-section{
+    margin: 160px 265px 0px 265px;
+    text-align: center;
+    padding-bottom: 160px;
+    
+}
+.banner-section h1{
+    margin-bottom: 35px;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-sec{
+    margin: 115px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-sub-title{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.50);
+}
+
+.action-sec img{
+    border-radius: 48px;
+}
+.action-sec div button{
+    margin-top: 13px;
+}
+
+/* Productive User Section Styles */
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.prod-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.user-section-prod{
+    max-width: 1140px;
+    background-color: rgba(77, 71, 255, 0.10);
+    margin: 110px auto;
+    border-radius: 24px;
+}
+.node h3{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+    
+}
+.data-subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
+}
+
+/* lets' touch section styles */
+.touch-title{
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+   
+
+}
+.touch-section{
+    gap: 50px;
+}
+/* .touch-container{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: #00000010;
+}
+.touch-container input[type="text"], input[type="email"], textarea{
+    height: 70px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 32px;
+    margin-bottom: 25px;
+
+    border: none;
+
+}
+.send{
+    width: 100%;
+} */
+.touch-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
+  gap: 50px;
+  padding: 50px 20px;
+}
+.touch-title {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000;
+}
+.touch-container form {
+  width: 100%;
+  max-width: 500px;
+  flex-grow: 1;
+}
+.touch-container input[type="text"],
+.touch-container input[type="email"],
+.touch-container textarea {
+  width: 100%;
+  box-sizing: border-box; 
+  border-radius: 10px;
+  height: 70px;
+  padding: 20px 32px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+}
+
+.touch-container textarea {
+  
+  height: 135px;
+}
+
+.send {
+  width: 100%;
+}
+
+/* User Feedback Section Styles */
+.user-feedback-section{
+    margin: 135px auto;
+    max-width: 1140px;
+}
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.feedback-container{
+    display: flex;
+    justify-content: space-between;
+}
+.user-container{
+    background-color: white;
+    /* min-width: 365px; */
+    margin-right: 20px;
+    height: 245px;
+    border-radius: 14px;
+    padding: 24px 24px;
+}
+.container-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 24px 0px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+
+}
+
+.user-info img{
+    border-radius: 9999px;
+    margin-right: 15px;
+}
+.reviewer-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+.review-date{
+    font-size: 16px;
+    color: #B3B3B3;
+}
+/* Footer Section */
+.logo2{
+    list-style-type: none;
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+}
+.footer-section{
+    max-width: 530px;
+    margin: 104px auto;
+    /* background-color: #252432; */
+    
+}
+footer li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+}
+.link-item ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.footer-description{
+    font-size: 16px;
+    color: #8987A1;
+    margin: 20px auto;
+}
